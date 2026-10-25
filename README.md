@@ -1,99 +1,43 @@
 # Enterprise IT Operations Platform
 
-## 🔐 Confidential Notice
-This system was designed and implemented for a regulated enterprise environment in the financial services sector.  
-No production data, credentials, or internal infrastructure details are disclosed.
+A multi-branch IT support and incident-management platform developed for a banking environment.
 
----
-## Architecture overview (conceptual)
+![Conceptual system architecture](assets/it-operations-architecture.svg)
 
-![Enterprise IT Operations Platform architecture](assets/it-operations-architecture.svg)
+## Project overview
 
-The diagram illustrates ticket reporting by branch employees, centralized IT operations and assignment, and field-engineer resolution workflows. It is illustrative only and does not expose production infrastructure, organization identifiers or internal technical configurations.
+The platform helps employees report technical issues and enables IT teams to assign, track, and resolve support requests across different branches.
 
-## 🧠 Overview
+It covers support workflows for networks, business systems, ATMs, CCTV equipment, cash-counting machines, and general workplace IT.
 
-Enterprise IT Operations Platform designed to support multi-branch operations and centralized IT service management in a regulated financial environment.
+## Main features
 
-The system enables incident tracking, service coordination, and operational visibility across distributed teams.
+- Centralized ticket management and incident tracking
+- Coordination between branches, IT specialists, and field engineers
+- Role-based access and operational dashboards
+- Notifications and progress updates
+- Mobile workflows for technicians
+- Email and Telegram integrations
+- Resolution history and reporting
 
----
-## 🧭 Business Context
+## Technology
 
-The platform was developed to address operational inefficiencies in distributed IT environments, enabling structured service delivery and improved coordination between technical teams and business stakeholders.
+The documented application uses Node.js, React, PostgreSQL, REST APIs, and a Flutter mobile application.
 
----
+## Deployment
 
-## 🚀 Engineering Impact
+The project includes cloud-hosting experience and a documented cPanel-compatible deployment variant. Detailed production configuration is intentionally not published.
 
-The system introduced a unified operational model that improved coordination, reduced response delays, and increased visibility across IT operations in a distributed enterprise environment.
+## Project role
 
----
+Enterprise Infrastructure and Operations Lead: system architecture, deployment planning, and IT support workflow design.
 
-## 📊 Scope & Scale
+## Case study
 
-The platform was designed to support enterprise-scale operations across multiple distributed branches within a regulated financial environment, ensuring high availability and operational continuity.
+[Read the project case study](https://fatihmh.online/banking-it-operations-platform/)
 
----
+## Confidentiality
 
-## 🧩 System Design Approach
+This repository contains only an overview and a conceptual architecture diagram. Application source code and operational configuration remain private.
 
-The system was designed using modular architecture principles to ensure scalability, maintainability, and separation of concerns across service layers.
-
----
-
-## 🎯 Key Capabilities
-
-- IT Service Management (Ticketing & Incident Tracking)
-- Multi-branch operational coordination
-- Role-based access control (RBAC)
-- Automated notifications and workflow management
-- Real-time operational dashboard
-
----
-
-## 🏗 Architecture (High-Level Design)
-
-- Backend: Node.js (Express.js) – Modular API architecture
-- Frontend: React.js – Component-based UI design
-- Database: PostgreSQL – Relational data model
-- Infrastructure: Cloud-based deployment environment
-- Authentication: JWT-based secure access model
-- Reverse Proxy: Nginx for traffic management and routing
-
----
-
-## 📱 Mobile & Field Operations
-
-A cross-platform mobile application built with Flutter was developed to support field engineers and operational teams, enabling real-time incident visibility and operational responsiveness.
-
----
-
-## 📡 Integrations
-
-- Email-based notifications (SMTP/IMAP)
-- Messaging integration for alerts
-- REST API-based architecture
-
----
-
-## 🚀 Impact
-
-- Improved operational efficiency across distributed IT teams
-- Centralized incident management and tracking
-- Standardized IT service workflows
-- Enhanced visibility for decision-making
-
----
-
-## 👨‍💻 Role
-
-Enterprise Infrastructure & Operations Lead
-
-Responsible for system architecture, deployment strategy, and IT operations design.
-
----
-
-## 🔒 Security Note
-
-All sensitive production details, configurations, and organizational identifiers have been intentionally removed for security reasons.
+Copyright 2026 Elfatih Mohamed Hameid Farah.
