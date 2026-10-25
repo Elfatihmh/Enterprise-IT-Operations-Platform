@@ -5,6 +5,12 @@ This system was designed and implemented for a regulated enterprise environment 
 No production data, credentials, or internal infrastructure details are disclosed.
 
 ---
+## Architecture overview (conceptual)
+
+![Enterprise IT Operations Platform architecture](assets/it-operations-architecture.svg)
+
+The diagram illustrates ticket reporting by branch employees, centralized IT operations and assignment, and field-engineer resolution workflows. It is illustrative only and does not expose production infrastructure, organization identifiers or internal technical configurations.
+
 ## 🧠 Overview
 
 Enterprise IT Operations Platform designed to support multi-branch operations and centralized IT service management in a regulated financial environment.
